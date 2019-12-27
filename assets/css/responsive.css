@@ -1,0 +1,203 @@
+@media (max-width: 1100px) {
+    .top-header {
+        font-size: 11px
+    }
+    .menu-logo {
+        max-width: 140px !important;
+    }
+    .banner-principal-itens {
+        padding-left: 5vw !important;
+    }
+    .container {
+        width: 95% !important;
+    }
+    .course-title {
+        font-size: 13px;
+    }
+    .courses-getin {
+        font-size: 10px;
+    }
+    .course-carga {
+        font-size: 12px;
+    }
+    .course-description {
+        font-size: 11px;
+    }
+    .courses-access {
+        font-size: 11px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .section-subtitle {
+        font-size: 14px
+    }
+    .notices-left-item-description {
+        font-size: 12px;
+    }
+    .ebook-item-title {
+        font-size: 12px;
+    }
+    .ebook-description {
+        font-size: 9px;
+    }
+    .notices-title {
+        font-size: 14px;
+    }
+    .programas .courses-getin {
+        font-size: 9px !important;
+        padding-right: 11px;
+    }
+    footer .ibgl .colorBlueTwo {
+        display: none
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 65% !important;
+    }
+}
+
+.menumobile {
+    padding: .5rem;
+    background-color: rgba(255,255,255,.6)
+}
+
+.menumobile_logo img  {
+    width: 30%;
+    margin: 0 auto
+}
+
+.menumobile_toogle {
+    color: var(--blue);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer
+}
+
+.menumobile_toogle > i {
+    font-size: 2.5rem
+}
+
+
+.pushmenu { /*this is the nav*/
+    background: white;
+    font-family: Montserrat;
+    width: 240px;
+    color: black;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position:fixed;
+}
+  
+.pushmenu a {
+    display: block; /* drops the nav vertically*/
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    padding: 14px;
+}
+  
+.pushmenu a:hover {
+    background:#00A287;
+    color: white
+}
+  
+.pushmenu a:active {
+    background: #454f5c;
+    color: #fff;
+}
+  
+.pushmenu-left {
+    left: -240px;
+  
+}
+  
+.pushmenu-left.pushmenu-open {
+    left: 0;
+}
+  
+.pushmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+  
+.pushmenu-push-toright {
+    left: 240px;
+}
+  
+/*Transition*/
+.pushmenu, .pushmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;  
+}
+
+@media (max-width: 800px) {
+    .banner-principal .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .banner-principal .row > div:last-child {
+        padding: 0px !important
+    }
+    .banner-principal-itens {
+        padding: 0 2rem !important;
+    }
+    .banner-principal-itens > div {
+        width: 45%;
+        margin: 1rem 2%;
+    }
+    .section-title-container {
+        flex-flow: column;
+    }
+    .section-title-container > div:nth-child(2) {
+        display: none
+    }
+    .notices-center-image {
+        min-height: 250px;
+    }
+    .ebook-image {
+        min-width: 20%;
+    }
+    .ebook-item-title {
+        font-size: 14px;
+    }
+    .ebook-description {
+        font-size: 12px;
+    }
+    .depo-item {
+        margin: 2rem 0
+    }
+    footer .newsletter > div {
+        margin: 10px 0
+    }
+    .newsletter-content {
+        justify-content: center;
+    }
+    .newsletter-title {
+        line-height: 18px;
+    }
+    .footer-row {
+        flex-flow: column;
+        padding: 0 2rem;
+    }
+    .footer-row > div {
+        margin-bottom: 1rem
+    }
+    footer .ibgl {
+        min-width: 100% !important;
+    }
+    footer .ibgl .colorBlueTwo {
+        display: block;
+    }
+    footer .footer-links {
+        text-align: center;
+    }
+}

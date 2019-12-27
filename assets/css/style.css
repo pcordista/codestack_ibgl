@@ -1,0 +1,448 @@
+/* 
+    PEDRO HENRIQUE V CORDISTA
+    CREATIVECODE | DEVSPACE
+    //
+    
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap');
+
+
+* {
+    max-width: 100vw !important;
+    box-sizing: border-box
+}
+body {
+    box-sizing: border-box;
+    max-width: 100vw !important;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+:root {
+    --blue: #00456d;
+    --lightgray: #f6f6f6;
+    --yellow: #b98e22;
+    --blueTwo: #0074ba
+}
+
+input, textarea {
+    padding-left: 10px !important;
+    width: calc(100% - 10px) !important;
+    margin-bottom: 0px !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(172, 172, 172, .7) !important;
+    font-size: 12px
+}
+
+img {
+    display: block
+}
+
+/********************* HELPERS *********************/
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.colorBlueTwo {
+    color: var(--blueTwo) !important
+}
+
+.colorBlue {
+    color: var(--blue) !important
+}
+
+.bgBlue {
+    background-color: var(--blue);
+}
+
+.colorLightgray {
+    color: var(--lightgray) !important;
+}
+
+.bgLightgray {
+    background-color: var(--lightgray);
+}
+
+.colorYellow {
+    color: var(--yellow) !important;
+}
+
+.bgYellow {
+    background-color: var(--yellow);
+}
+
+
+/********************* TOP HEADER *********************/
+.top-header {
+    font-size: 12px;
+    padding: 10px 0
+}
+
+.top-header img {
+    height: 20px;
+}
+
+.top-header .container {
+    justify-content: space-between;
+}
+
+/********************* MENU *********************/
+.menu {
+    padding: 10px 0;
+}
+
+.menu .container {
+    justify-content: space-between;
+}
+
+.menu-logo {
+    max-width: 180px !important;
+}
+
+.menu-search {
+    width: 45%;
+    position: relative
+}
+
+.menu-search a {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-search input {
+    background-color: #f6f6f6 !important;
+    border: 0px !important;
+    height: 2.5rem !important;
+    border-radius: 5px !important
+}
+
+.menu-account, .menu-atendimento {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+/********************* BANNER PRINCIPAL *********************/
+.banner-principal-itens {
+    padding-left: 10vw !important
+}
+
+.banner-principal-item {
+    align-items: flex-start;
+    margin: 10px 0;
+    font-size: 12px;
+    display: inline-flex;
+}
+
+.banner-principal-item-image {
+    min-width: 40px;
+}
+
+.banner-principal-item-image img {
+    margin-right: 10px;
+    height: 20px;
+    max-width: 30px !important
+}
+
+.banner-principal-item > .banner-principal-item-links {
+    display: flex;
+    flex-flow: column;
+}
+
+
+/********************* SECTION TITLE *********************/
+
+.section-title {
+    font-size: 25px
+}
+
+.section-title-arrow {
+    height: 14px;
+    margin: 0 1rem;
+}
+
+.section-subtitle {
+    color: #0074ba
+}
+
+/********************* CAROUSEL COURSES *********************/
+.course-item {
+    margin: 5px;
+    box-shadow: 0 0 6px #eee
+}
+.course-text {
+    padding: 10px
+}
+
+.course-title {
+    font-size: 14px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.course-text hr {
+    width: 40%;
+    border: 1px solid var(--lightgray);
+    color: white;
+}
+
+.course-description {
+    font-size: 12px;
+}
+
+.course-carga {
+    font-size: 14px;
+    color: #008cc4
+}
+
+.courses-getin {
+    background: url('../img/bg-button.png') no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    font-size: 12px;
+}
+
+.courses-getin img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 12px;
+    height: 100%;
+}
+
+.courses-access {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.courses-access:hover, .notices-cta:hover, .ebook-more:hover {
+    background-color: #008cc4;
+    color: white
+}
+
+
+/********************* NOTICIAS *********************/
+.notices-left-item { 
+    margin-bottom: 1.2rem;
+}
+
+.notices-category {
+    font-size: 12px;
+}
+
+.notices-left-item-description {
+    font-size: 14px;
+}
+
+.notices-center {
+    margin-bottom: 1rem
+}
+
+.notices-center-image {
+    min-width: 50%;
+    min-height: 200px;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.notices-title {
+    color: #00a8ec;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.notices-description {
+    font-size: 11px;
+    margin: .5rem 0;
+}
+
+.notices-cta {
+    padding: 4px 6px;
+    font-size: 12px;
+}
+
+.ebook-subtitle, .ebook-title {
+    color: #0f5b9c;
+    line-height: 16px;
+}
+
+.ebook-title {
+    font-size: 10px;
+}
+
+.ebook-item {
+    margin: 1rem 0
+}
+
+.ebook-image {
+    min-width: 50%;
+    min-height: 100px;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ebook-item-title {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.ebook-description {
+    font-size: 11px;
+    margin: 5px 0
+}
+
+.ebook-cta {
+    font-size: 12px;
+    padding: 4px 0
+}
+
+.ebook-more {
+    display: block;
+    text-align: center;
+    padding: 8px 0
+}
+
+/********************* PROGRAMAS *********************/
+.programas .courses-getin {
+    font-size: 11px !important;
+    padding-right: 11px;
+}
+
+/********************* DEPOIMENTOS *********************/
+.depo-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depo-item img {
+    max-width: 100px !important;
+}
+
+.depo-cta {
+    background-image: url('../img/bg-button-blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 2rem;
+}
+
+/********************* RODAPE *********************/
+footer {
+    padding: 3rem 0;
+}
+
+.newsletter img {
+    width: 50px;
+}
+
+.newsletter-content {
+    align-items: flex-start;
+}
+
+.newsletter-title {
+    line-height: 16px;
+}
+
+.newsletter-subtitle {
+    font-size: 12px;
+    color: #a3a3a3;
+    line-height: 14px;
+}
+
+.newsletter-input {
+    background-color: white !important;
+    border: 0px !important;
+    height: 2.5rem !important;
+    color: black
+}
+
+.newsletter-cta {
+    background-image: url('../img/bg-button-newsletter.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px
+}
+
+footer hr {
+    border: 1px solid #1b5477;
+    margin: 1rem 0
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row .ibgl {
+    align-items: start;
+    font-size: 11px;
+    max-width: 40ch !important;
+}
+
+.footer-links > div {
+    display: flex;
+    flex-flow: column;
+    font-size: 11px;
+}
+
+.footer-links > div a {
+    margin-bottom: 5px;
+}
+
+.footer-socials .flex {
+    justify-content: space-between;
+}
+
+.footer-socials-title {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer-socials-title .bold {
+    font-size: 14px !important
+}
+
+.footer-final {
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: .7rem 0;
+    line-height: 25px;
+}
