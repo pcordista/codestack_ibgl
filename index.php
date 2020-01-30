@@ -15,9 +15,9 @@ header("Etag: $etag");
 
 <?php include 'components/content-banner.php'; ?>
 
+<?php include 'components/content-notices.php'; ?>
 <?php include 'components/content-courses.php'; ?>
 
-<?php include 'components/content-notices.php'; ?>
 
 <?php include 'components/content-programas.php'; ?>
 
@@ -32,9 +32,6 @@ header("Etag: $etag");
 <?php include 'footer.php'; ?>
 <?php include 'assets/js/JS_includes.php'; ?>
 <script src="assets/devlop/live.js"></script>
-<script>
-heightHomeFix()
-</script>
 </body>
 
 </html>
