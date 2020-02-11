@@ -136,6 +136,20 @@ img {
     font-size: 12px;
 }
 
+.menu-two {
+    margin-bottom: 10px
+}
+
+.menu-two .container>a:not(:last-child), .menu-two .container>div:not(:last-child) {
+    border-right: 1px solid black;
+    /* margin: 0 10px; */
+}
+
+.menu-two .container>a, .menu-two .container>div {
+    padding: 0 20px;
+    font-weight: 500;
+}
+
 /********************* BANNER PRINCIPAL *********************/
 .banner-principal-itens {
     padding-left: 10vw !important
@@ -445,4 +459,27 @@ footer hr {
     font-size: 12px;
     padding: .7rem 0;
     line-height: 25px;
+}
+
+.dropdown-toggle:hover .dropdown-box {
+    display: block
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    top: 22.5px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    color: white;
+    padding: .5rem;
+    font-size: 12px;
+}
+
+.dropdown-box > div {
+    
+    display: flex;
+    flex-flow: column
 }

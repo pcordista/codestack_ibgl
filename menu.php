@@ -35,6 +35,56 @@
         </div>
     </div>
 </section>
+<div class="menu-two hide-on-med-and-down">
+    <div class="container flex justifycenter alignCenter textUpper colorBlue">
+        <a href="./">
+            home
+        </a>
+        <div href="./" class="relative dropdown-toggle">
+            nossos cursos
+            <div class="dropdown-box">
+                <div>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                </div>
+            </div>
+        </div>
+        <div href="./" class="relative dropdown-toggle">
+            produtos
+            <div class="dropdown-box">
+                <div>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                <a href="/">
+                    ITEM 1
+                </a>
+                </div>
+            </div>
+        </div>
+        <a href="./">
+            contato
+        </a>
+
+    
+    </div>
+</div>
 
 <section class="menumobile mobile">
     <div class="menumobile_container relative">
